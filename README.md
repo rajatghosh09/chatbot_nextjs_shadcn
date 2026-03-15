@@ -1,63 +1,40 @@
-🤖 Personal AI Assistant
-A modern, responsive, and highly interactive AI chatbot built with Next.js 15, Llama 3.1, and Tailwind CSS. This project features a polished UI, real-time message streaming simulation, and a seamless user experience.
+# 🤖 Personal AI Assistant
 
-✨ Features
-Modern Chat UI: Clean, bubble-style conversation interface inspired by industry leaders.
+A high-performance, responsive AI chatbot interface. Built with **Next.js 15**, **Llama 3.1**, and **Tailwind CSS**, it delivers a premium chat experience with real-time UI updates and a polished design.
 
-Real-time Interaction: Instant UI updates with smooth "typing" indicators.
+---
 
-Auto-Scroll: Intelligent scroll management that stays anchored to the latest message.
+### ✨ Key Features
 
-Responsive Design: Fully optimized for Desktop, Tablet, and Mobile screens.
+* **Modern Chat UI** – Minimalist, bubble-style conversation interface with optimized spacing.
+* **Real-time Feedback** – Integrated "thinking" indicators and smooth state transitions.
+* **Smart Auto-Scroll** – Automatically anchors to the newest message for a seamless reading experience.
+* **Responsive Layout** – Pixel-perfect display across mobile, tablet, and desktop devices.
+* **Context Management** – One-click "Clear Chat" to reset the conversation state.
 
-Clear Context: One-click "Clear Chat" functionality to reset conversations.
+---
 
-Dark Mode Support: Built using Shadcn UI variables for a consistent look.
+### 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Framework: Next.js (App Router)
+| Category       | Technology                                     |
+| :------------- | :--------------------------------------------- |
+| **Framework** | Next.js 15 (App Router)                         |
+| **Styling** | Tailwind CSS + Lucide Icons                    |
+| **Components** | Shadcn UI (Avatar, Button, Input, ScrollArea) |
+| **HTTP Client**| Axios                                          |
+| **AI Model** | Llama 3.1 (via Groq/OpenAI compatible API)     |
 
-Styling: Tailwind CSS
+---
 
-Components: Shadcn UI (Avatar, Button, Input, ScrollArea)
+### 🚀 Getting Started
 
-Icons: Lucide React
+#### 1. Prerequisites
+* **Node.js**: 18.x or later
+* **API Key**: Groq, OpenAI, or a custom LLM endpoint
 
-API Client: Axios
+#### 2. Installation
+First, clone the repository and enter the directory:
 
-AI Model: Llama 3.1 (via Groq/Axios API)
-
-🚀 Getting Started
-Prerequisites
-Node.js 18.x or later
-
-An API key for your LLM provider (e.g., Groq, OpenAI, or your custom endpoint)
-
-Installation
-Clone the repository:
-
-Bash
-git clone https://github.com/your-username/personal-ai-assistant.git
+```bash
+git clone [https://github.com/your-username/personal-ai-assistant.git](https://github.com/your-username/personal-ai-assistant.git)
 cd personal-ai-assistant
-Install dependencies:
-
-Bash
-npm install
-Configure environment variables:
-Create a .env.local file in the root directory:
-
-Code snippet
-NEXT_PUBLIC_API_URL=your_api_endpoint_here
-NEXT_PUBLIC_API_KEY=your_api_key_here
-Run the development server:
-
-Bash
-npm run dev
-Open http://localhost:3000 with your browser to see the result.
-
-📸 Preview
-[!TIP]
-Pro-tip: Add a screenshot or a GIF of your chat app here to show off the UI to potential employers or contributors!
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
